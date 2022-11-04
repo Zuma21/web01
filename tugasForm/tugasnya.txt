@@ -3,4 +3,12 @@ Tanggal: 31 Oktober 2022
 
 Membuat website mengisi biodata dengan menggunakan minimal 10 form dengan banyak variasi inputan.
 
+
+
+Lets Make it!
+Reancananya ini aku mau buat formnya berada di dalam tabel sehingga terlihat rapi,
+dan mungkin dengan background suatu universitas milikku sendiri "ZUMA Univercity" :) Hehe..
+yup, aku juga ingin membuatnya responsif dan menghostingnya sehingga bisa di akses di hp juga.
+Dan aku usahakan buat formnya itu berfungsi (Tersambung ke google sheet)
+
 Desainnya: https://www.figma.com/file/EoQk9zi5uF6Cg0A7oK8oUU/Website-Form?node-id=0%3A1
