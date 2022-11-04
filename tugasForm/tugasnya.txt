@@ -1,0 +1,6 @@
+Tugas Teori
+Tanggal: 31 Oktober 2022
+
+Membuat website mengisi biodata dengan menggunakan minimal 10 form dengan banyak variasi inputan.
+
+Desainnya: https://www.figma.com/file/EoQk9zi5uF6Cg0A7oK8oUU/Website-Form?node-id=0%3A1
