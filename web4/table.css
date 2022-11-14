@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+}
+hr{
+    width: 450px;
+}
+p{
+    text-align: center;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(39, 39, 39, .736);
+}
+
+thead tr th{
+    background-color: green;
+    color: white;
+}
+thead tr th:nth-child(2){
+    width: 40%;
+}
+
+tbody tr:nth-child(even){
+    background-color: grey;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+tbody tr:hover{
+    background-color: lightgreen;
+}
+tbody tr:last-child:hover{
+    background-color: lightgray;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 1</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+
+    <h1>Design Table | Java Sripct (alert)</h1><hr>
+    <p>Dibuat dengan &#10084; oleh Zul Fadli Ahmad</p><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Usia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Zul Fadli</td>
+                <td>Tanete</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Asmaul Husna</td>
+                <td>Tile-tile</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Andi Rahmatullah</td>
+                <td>Siloka</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Andi Alfeni</td>
+                <td>Tile-tile</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Risaldi</td>
+                <td>Tanete</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Miftahul Jannah</td>
+                <td>Lopi-lopi</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button onclick="aksi()">Greeting</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        function aksi(){
+            alert("Hello.. Selamat Datang K1821");
+        }
+
+        var nama = prompt("Silahkan Masukkan Nama Anda:");
+        var lanjut = prompt("Hai " + nama + ", Bagaimana Harimu [Baik, Tidak Baik]:");
+        if(lanjut == "Baik"){
+            alert("Alhamdulillah, Semoga baik selalu.");
+        } else if(lanjut == "Tidak Baik"){
+            alert("Astagfirullah, Banyak sekali dosamu kayanya. Hehehe..");
+        }
+    </script>
+    
+</body>
+</html>
