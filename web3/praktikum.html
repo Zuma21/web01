@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login Sederhana</title>
+
+    <style>
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            margin-top: 25%;
+            justify-content: center;
+            align-items: center;
+            /* background-color: blue; */
+        }
+
+        h2{
+            float: left;
+            width: 50%;
+            /* margin: auto; */
+        }
+
+        body{
+            font-family: sans-serif;
+            background-color:aquamarine;
+        }
+
+        .card{
+            width: 500px;
+            height: 600px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .card hr{
+            width: 100%;
+        }
+
+        .card a{
+            margin: auto;
+        }
+
+
+        form{
+            /* background-color: rebeccapurple; */
+            height: 50%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        form label{
+            align-self: flex-start;
+        }
+
+        form input{
+            height: 20%;
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        form input.tombol_login{
+            background-color: blue;
+            border: 0;
+            border-radius: 20px;
+            color: white;
+        }
+
+        form input.tombol_login:last-child{
+            width: 80%;
+            height: 20%;
+            margin: auto;
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Facebook membantu Anda terhubung dan berbagi dengan orang-orang dalam kehidupan Anda</h2>
+
+        <div class="card">
+            <form action="" method="" enctype="application/x-www-form-urlencoded">  <!-- entype diunakan jika ingin mengirim data berupa inputan -->
+                <label for="user">Username</label>
+                <input type="text" name="" id="user" class="form_login" placeholder="Username">
+                <label for="password">Password</label>
+                <input type="password" class="form_login" placeholder="Password">
+                <input type="submit" class="tombol_login" value="MASUK">
+                <a href="#">Lupa kata sandi</a>
+                <hr>
+                <input type="submit" class="tombol_login" value="Buat akun baru">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
