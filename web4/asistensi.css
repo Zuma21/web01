@@ -1,0 +1,37 @@
+table{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+}
+
+.satu1{
+    border-bottom: 1px solid black;
+    /* background-color: red; */
+}
+
+.dua2{
+    border-bottom: 1px solid black;
+}
+.dua3{
+    border-left: 1px solid black;
+}
+
+.tiga2{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.tiga3{
+    border-bottom: 1px solid black;
+}
+
+.empat1, .empat2{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.lima1, .lima2{
+    border-left: 1px solid black;
+}
